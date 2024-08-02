@@ -11,6 +11,8 @@ header {
     justify-content: space-around;
     align-items: center;
     gap: 20px;
+    position: sticky;
+    top: 0;
 }
 
 header span:not(h3) {
@@ -21,6 +23,7 @@ header span:not(h3) {
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
 nav ul {
@@ -609,7 +612,7 @@ footer div img {
         }
         .buttons button {
             padding: 10px 5px;
-            font-size: 0.8em;
+            font-size: 0.7em;
         }
         footer{
             flex-wrap: wrap;
